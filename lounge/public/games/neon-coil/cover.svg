@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#0d1430"/><stop offset="1" stop-color="#04060d"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5a82ff" stroke-opacity=".12"/></pattern>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <rect width="640" height="400" fill="url(#grid)"/>
+  <g filter="url(#glow)">
+    <circle cx="90" cy="90" r="6" fill="#ff5ce1"/><circle cx="540" cy="70" r="5" fill="#ffe14d"/><circle cx="580" cy="300" r="7" fill="#4dff88"/>
+    <circle cx="120" cy="320" r="5" fill="#7df9ff"/><circle cx="330" cy="60" r="4" fill="#ff8a4d"/><circle cx="460" cy="350" r="5" fill="#c78bff"/>
+    <circle cx="250" cy="110" r="4" fill="#4dff88"/><circle cx="200" cy="250" r="5" fill="#ffe14d"/>
+    <path d="M60 300 C 140 200, 220 340, 300 250 S 430 120, 500 190" fill="none" stroke="#2fd6ff" stroke-width="34" stroke-linecap="round"/>
+    <path d="M60 300 C 140 200, 220 340, 300 250 S 430 120, 500 190" fill="none" stroke="#a8f7ff" stroke-width="15" stroke-linecap="round" stroke-dasharray="10 20"/>
+    <path d="M610 130 C 560 160, 540 260, 470 290 S 360 330, 330 360" fill="none" stroke="#ff4fd8" stroke-width="22" stroke-linecap="round"/>
+    <path d="M610 130 C 560 160, 540 260, 470 290 S 360 330, 330 360" fill="none" stroke="#ffb3f1" stroke-width="9" stroke-linecap="round" stroke-dasharray="7 13"/>
+  </g>
+  <circle cx="500" cy="190" r="19" fill="#2fd6ff"/>
+  <circle cx="506" cy="180" r="7" fill="#fff"/><circle cx="508" cy="200" r="7" fill="#fff"/>
+  <circle cx="509" cy="180" r="3.5" fill="#06101c"/><circle cx="511" cy="200" r="3.5" fill="#06101c"/>
+  <text x="320" y="72" text-anchor="middle" font-family="system-ui,Segoe UI,Roboto,sans-serif" font-size="52" font-weight="900" letter-spacing="4" fill="#d9fdff" filter="url(#glow)">NEON COIL</text>
+</svg>

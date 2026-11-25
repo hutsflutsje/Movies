@@ -1,0 +1,13 @@
+{
+  "name": "lounge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal media hub: free legal movies & TV, YouTube search player, free music & radio, and original browser games. Runs on Cloudflare Pages.",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

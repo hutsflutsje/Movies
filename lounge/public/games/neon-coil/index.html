@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover" />
+    <title>Neon Coil</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas id="c" tabindex="0"></canvas>
+
+    <div id="hud" hidden>
+      <div class="stats">
+        <div><small>Length</small><strong id="length">20</strong></div>
+        <div><small>Kills</small><strong id="kills">0</strong></div>
+        <div><small>Best</small><strong id="best">0</strong></div>
+      </div>
+      <ol id="board" class="board"></ol>
+      <canvas id="minimap" class="minimap"></canvas>
+      <button id="boost" class="boost" aria-label="Boost">⚡</button>
+    </div>
+
+    <div id="menu" class="screen">
+      <div class="card">
+        <h1>NEON COIL</h1>
+        <p class="sub">Eat glowing orbs to grow. Make rivals crash into your body. Don't touch anyone's tail, or the wall.</p>
+        <input id="name" maxlength="14" placeholder="Your name" autocomplete="off" />
+        <div id="swatches" class="swatches"></div>
+        <button id="play" class="play">Play</button>
+        <p class="tips"><b>Mouse/finger</b> steer · <b>hold click / Space / ⚡</b> boost · <b>← →</b> also steer</p>
+      </div>
+    </div>
+
+    <div id="dead" class="screen" hidden>
+      <div class="card">
+        <h2 id="dead-title">Game over</h2>
+        <div class="results">
+          <div><small>Length</small><strong id="dead-length">0</strong></div>
+          <div><small>Kills</small><strong id="dead-kills">0</strong></div>
+          <div><small>Best</small><strong id="dead-best">0</strong></div>
+        </div>
+        <button id="again" class="play">Play again</button>
+      </div>
+    </div>
+
+    <script src="./game.js"></script>
+  </body>
+</html>

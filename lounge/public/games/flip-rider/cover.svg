@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#120a2a"/><stop offset=".6" stop-color="#4a1d6a"/><stop offset="1" stop-color="#ff7a59"/></linearGradient>
+    <linearGradient id="dirt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1d40"/><stop offset="1" stop-color="#120b1e"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#sky)"/>
+  <circle cx="500" cy="150" r="48" fill="#ffe7c2" opacity=".9"/>
+  <path d="M0 270 C 120 210, 200 250, 300 225 S 500 200, 640 240 V400 H0Z" fill="#2b1846"/>
+  <path d="M0 330 L 150 330 C 210 330, 230 270, 260 262 L 260 400 H0Z M400 300 C 440 300, 470 330, 640 330 V400 H400Z" fill="url(#dirt)"/>
+  <path d="M0 330 L 150 330 C 210 330, 230 270, 260 262 M400 300 C 440 300, 470 330, 640 330" fill="none" stroke="#ff9f6e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M250 230 Q 330 60 410 230" fill="none" stroke="#ffd166" stroke-width="4" stroke-dasharray="4 12" stroke-linecap="round" opacity=".8"/>
+  <g transform="translate(330 140) rotate(-35)">
+    <circle cx="-40" cy="26" r="22" fill="#1b1b1f" stroke="#c7ccd8" stroke-width="7"/>
+    <circle cx="42" cy="26" r="22" fill="#1b1b1f" stroke="#c7ccd8" stroke-width="7"/>
+    <path d="M-30 6 L30 6 L44 -10 L4 -20 L-34 -12Z" fill="#ff4d4d" stroke="#7a1d1d" stroke-width="3"/>
+    <path d="M-10 -12 L4 -50" stroke="#f3f3f7" stroke-width="12" stroke-linecap="round"/>
+    <path d="M4 -46 L24 -30 L36 -24" stroke="#f3f3f7" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="8" cy="-60" r="11" fill="#ff4d4d"/>
+    <path d="M28 -14 L42 26" stroke="#c9ccd6" stroke-width="5"/>
+  </g>
+  <text x="320" y="70" text-anchor="middle" font-family="system-ui,Segoe UI,Roboto,sans-serif" font-size="56" font-weight="900" fill="#fff" stroke="#3b1a5a" stroke-width="2">FLIP RIDER</text>
+</svg>

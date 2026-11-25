@@ -1,0 +1,10 @@
+{
+  "name": "Lounge",
+  "short_name": "Lounge",
+  "description": "Movies & TV, YouTube, music, radio and games.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0c12",
+  "theme_color": "#0b0c12",
+  "icons": [{ "src": "/img/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

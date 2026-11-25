@@ -1,0 +1,30 @@
+[
+  {
+    "id": "neon-coil",
+    "title": "Neon Coil",
+    "description": "Grow the longest glowing snake in the arena. Make rivals crash into you and swallow their light.",
+    "cover": "/games/neon-coil/cover.svg",
+    "src": "/games/neon-coil/",
+    "tags": ["Arena", "Snake", "Bots"],
+    "controls": "Steer with your mouse or finger. Hold the mouse button, Space, or the ⚡ button to boost (costs length).",
+    "badge": "NEW"
+  },
+  {
+    "id": "flip-rider",
+    "title": "Flip Rider",
+    "description": "Stunt motocross across 8 tracks. Land flips to knock seconds off your time.",
+    "cover": "/games/flip-rider/cover.svg",
+    "src": "/games/flip-rider/",
+    "tags": ["Racing", "Physics", "8 levels"],
+    "controls": "→ / D = gas, ← / A = brake & reverse. In the air: gas = backflip, brake = frontflip. R = restart. On phones use the on-screen pedals."
+  },
+  {
+    "id": "rumble-truck",
+    "title": "Rumble Truck",
+    "description": "Crawl a monster truck over crates, bridges, seesaws and canyons. Don't flip it!",
+    "cover": "/games/rumble-truck/cover.svg",
+    "src": "/games/rumble-truck/",
+    "tags": ["Driving", "Physics", "8 levels"],
+    "controls": "→ / D = gas, ← / A = brake & reverse. In the air, gas/brake tilt the truck. R = restart. On phones use the on-screen pedals."
+  }
+]
